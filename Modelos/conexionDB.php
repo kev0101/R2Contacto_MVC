@@ -11,10 +11,10 @@ class Conexion {
 
     //Constructor//
     public function __construct () {
-        $this->server = 'localhost';
-        $this->user = 'root';
-        $this->password = '';
-        $this->database = 'contact';
+        $this->server = 'bmtz9ag50yddbsehjepe-mysql.services.clever-cloud.com';
+        $this->user = 'uyfaqry3gsxz1s4u';
+        $this->password = 'MZ5XkdNaIggIP1maYR1V';
+        $this->database = 'bmtz9ag50yddbsehjepe';
         //String de conexion a base de datos//
         $this->conn = new mysqli($this->server, $this->user, $this->password, $this->database);
     }
